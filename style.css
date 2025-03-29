@@ -1,19 +1,20 @@
-*{
+* {
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
     border-radius: 15px;
 }
-main{
+
+main {
     height: 100vh;
     width: 100vw;
     background-color: #02a0dd;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
-.card{
+
+.card {
     background-color: #fff;
     display: flex;
     height: 60%;
@@ -23,15 +24,20 @@ main{
     padding: 40px;
     gap: 3%;
 }
-.card img{
-    height: 58%;
-    width: 100%;
 
+.card img {
+    display: block;
+    height: 58%;
+    max-width: 100%;
+    overflow: hidden;
 }
 
-.text h1{
+.text h1 {
     font-size: 5rem;
 }
-p{
+
+p {
     font-size: 4rem;
 }
+
+
